@@ -18,21 +18,48 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <nav>
-        <ul class="nav nav-tabs">
-            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Factory</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Building Supply</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Hardware</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Farmer's Market</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Gardening Supplies</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Donut Shop</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Fashion Store</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Fast Food</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Home Appliances</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Totals</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="scbicalc.html">SCBI Calulator</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <!-- <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Factory</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Building Supply</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Hardware</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Farmer's Market</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Gardening Supplies</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Donut Shop</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Fashion Store</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Fast Food</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Home Appliances</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Totals</a></li> -->
+            </ul>
+        </div>
     </nav>
 
+    <div class="card">
+        <div class="card-body">
+            <form method="get" action="start.php">
+                <label id="getstartedbutton"><input type="submit" value="Get Started"></label>
+            </form>
+        </div>
+    </div>
+
+
+
+<!--    <nav>
+        <ul class="nav nav-tabs">
+
+        </ul>
+    </nav>
+-->
 </body>
 </html>
