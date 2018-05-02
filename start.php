@@ -7,5 +7,5 @@
  */
 
 session_start();
-header('Location: factory.html');
+header('Location: factory.php');
 

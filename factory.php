@@ -15,6 +15,9 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" type="text/css" href="buldingcss.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
@@ -50,7 +53,7 @@
                 <h1>Factory Items</h1>
             </div>
         </div>
-        <div class="row" style="margin: 5px">
+        <div class="row">
             <div class="col-md-4">
                 <label>Metal - <input type="text" size="3" name="metal"></label>
             </div>
@@ -61,7 +64,7 @@
                 <label>Plastic - <input type="text" size="3" name="plastic"></label>
             </div>
         </div>
-        <div class="row" style="margin: 5px">
+        <div class="row">
             <div class="col-md-4">
                 <label>Seeds - <input type="text" size="3" name="seeds"></label>
             </div>
@@ -72,7 +75,7 @@
                 <label>Chemicals - <input type="text" size="3" name="chemicals"></label>
             </div>
         </div>
-        <div class="row" style="margin: 5px">
+        <div class="row">
             <div class="col-md-4">
                 <label>Textiles - <input type="text" size="3" name="textiles"></label>
             </div>
@@ -81,6 +84,20 @@
             </div>
             <div class="col-md-4">
                 <label>Glass - <input type="text" size="3" name="glass"></label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label>Feed - <input type="text" size="3" name="feed"></label>
+            </div>
+            <div class="col-md-6">
+                <label>Microchips - <input type="text" size="3" name="chips"></label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <label><input type="reset" value="Clear Factory"></label>
+                <label><input type="submit" value="Building Supplies"></label>
             </div>
         </div>
         </form>
